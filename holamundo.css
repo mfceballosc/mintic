@@ -1,0 +1,37 @@
+header{
+    background-color: rgb(172, 175, 172);
+    text-align: center;
+}
+header img{
+    border-radius: 50%;
+    width: 10%;
+}
+section{
+    width: 70%;
+    margin: auto;
+}
+article{
+    /* Separaciòn entre el titulo y el parrafo */
+    padding: 20px, 20px;
+    border-bottom: 2px dotted rgb(22, 21, 21);
+}
+
+article h2{
+    text-transform: uppercase;
+    float: left;
+    border-bottom: 3px solid cadetblue;
+    padding-bottom: 1px;
+    line-height: 1.3em;
+}
+
+article p, article ul{
+    margin-left: 40%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(94, 91, 91);
+    line-height: 2em;
+    margin-bottom: 2em;
+}
+article ul li{
+    margin-left: -3%;
+    list-style: square;
+}
